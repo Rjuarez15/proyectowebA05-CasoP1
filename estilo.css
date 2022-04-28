@@ -1,0 +1,56 @@
+*{
+    margin:auto; /* Separar texto y las imagenes segun la medida : top (arriba),dawn(abajo),lef(izquierda),rigth(derecha) */
+    padding :0px;/* Separar texto y las imagenes segun la medida   top (arriba),dawn(abajo),lef(izquierda),rigth(derecha)*/
+}
+body{
+    background: #fff;/* nombre del color: red , hexadecimal(#xxx) , rgb(80,80,252) recomendable */
+}
+header, .main, footer{ /* header y footer: html5 manipular el diseño, .main : crear tu propio estilo personalizado  */
+    background: #fff;/* color de fondo   */
+    width: 90%; /* personalizamos el ancho de la web   */
+    max-width: 1000px; /* colocamos un ancho predeterminado margen izquierdo y derecho   */
+    margin: 20px auto; /* margen horizontal (20px) , margen vertical (alinear la web al centro auto)   */
+}
+header nav{
+    background: rgb(31, 31, 244);
+     overflow: hidden; /* oculta las viñetas de la web   */
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float:left;/*ordenar el menu en forma horizontal   */
+}
+header nav ul li a{
+    padding: 10px 20px; /*colocamos medida superior 10px y medida inferior 20px   */
+    display: block; /*separacion del menu   */
+    color: #fff; /*color al texto del menu  */ 
+    text-decoration: none; /*quitamos el subrayado del menu   */
+}
+header nav ul li a:hover{
+    background: rgb(7, 5, 5);
+}
+.main  .articles{
+    width: 68.5%; /*colocamos una medida predeterminada   */
+    margin-right: 1.5%; /*añadimos una medida prederterminada  */
+    float: left; /*movemos el articulo al lado izquierdo  */
+}
+.main .articles  article{
+    padding: 20px;
+    background:#fff;
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%; /*ancho del articulo   */
+    background: #fff; /*color de fondo del articulo  */
+    float: left; /* alineamos el texto bienvenido izquierdo  */
+    padding: 20px; /*separacion bienvenido y la imagen certus nuestro campus   */
+    box-sizing:border-box; /*articulo este estatico   */
+}
+footer{
+    background-color: blue;
+    color: #fff;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
